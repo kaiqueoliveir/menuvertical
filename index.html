@@ -1,21 +1,40 @@
-
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Menu Vertical</title>
+    <title>Menu Vertical em Preto e Branco</title>
+   
   </head>
-  <body>
+
 <link rel="stylesheet" href="style.css">
 
-    <div class="vertical-menu">
-      <a href="#" class="active">Home</a>
-      <a href="http://www.google.com" target="_blank">Google</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-      <a href="#">Link 4</a>
-    </div>
+<body onload="exibirNome()">
 
+  <h1>José Augusto</h1>
+  
+  <div class="vertical-menu">
+    <a href="#" class="active">Inicio</a>
+    <a href="#">Youtube</a>
+    <a href="#">W3School</a>
+    <a href="#">GitHub</a>
+    <a href="#">Google</a>
+    <a href="#">Google Drive</a>
+  </div>
+  <script>
+    function exibirNome() {
+      alert("José Augusto Jesus De Lima");
+    }
+  </script>
 
-    <script src="script.js"></script>
+  <body>
+    <h2>Meu segundo código em JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Clique aqui par aparecer a hora atual.</button>
+
+<p id="demo"></p>
+  </body>
+
   </body>
 </html>
